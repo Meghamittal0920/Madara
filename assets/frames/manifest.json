@@ -1,0 +1,14 @@
+{
+  "turn": {
+    "count": 70,
+    "w": 1280,
+    "h": 720,
+    "pattern": "assets/frames/turn/turn_%03d.webp"
+  },
+  "awaken": {
+    "count": 38,
+    "w": 1280,
+    "h": 720,
+    "pattern": "assets/frames/awaken/awaken_%03d.webp"
+  }
+}

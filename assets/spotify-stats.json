@@ -1,0 +1,33 @@
+{
+  "playlistId": "6TpwDliETwXYHfWXFVaXZr",
+  "name": "Naruto (songs/themes)",
+  "owner": "(LEGENDARY)",
+  "description": "All the songs you know from Naruto and Naruto Shippuden.",
+  "followers": 108854,
+  "tracks": null,
+  "isPublic": true,
+  "collaborative": false,
+  "url": "https://open.spotify.com/playlist/6TpwDliETwXYHfWXFVaXZr",
+  "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cdee5c2ffb495f7f9253f8389",
+  "artistId": null,
+  "artistName": null,
+  "artistFollowers": null,
+  "artistPopularity": null,
+  "artistGenres": null,
+  "artistUrl": null,
+  "avgPopularity": null,
+  "monthlyListeners": null,
+  "monthlyListenersLabel": null,
+  "monthlyListenersDate": null,
+  "curator": null,
+  "topTracks": null,
+  "topRange": null,
+  "updatedAt": "2026-08-27T14:08:01.048Z",
+  "unavailable": [
+    "track count",
+    "average track popularity",
+    "monthly listeners (not in the Web API)",
+    "play / stream / view counts (not in the Web API)"
+  ],
+  "note": "Spotify returns followers and popularity. It has no listener, play or view count."
+}

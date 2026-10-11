@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<script>document.documentElement.classList.remove('no-js');</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>うちはマダラ — 終わりなき夢 / UCHIHA MADARA</title>
+<meta name="description" content="Uchiha Madara — three ascensions under a bleeding moon. Edo Tensei, Ten-Tails jinchuriki, Rinne Sharingan.">
+<meta name="theme-color" content="#050506">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='%23e0202a'/%3E%3Ccircle cx='16' cy='16' r='4' fill='%23050506'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=M+PLUS+1+Code:wght@400;700&family=Shippori+Mincho+B1:wght@600;800&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ PRELOADER ============ -->
+<div class="preloader" data-preloader>
+  <div class="preloader__ring" aria-hidden="true"><span></span><span></span><span></span></div>
+  <p class="preloader__kanji" aria-hidden="true">写輪眼</p>
+  <div class="preloader__meter"><i data-preloader-bar></i></div>
+  <p class="preloader__pct"><b data-preloader-pct>0</b>%<span> — awakening the sequence</span></p>
+</div>
+
+<!-- ============ AMBIENT LAYERS ============ -->
+<canvas class="glyphrain" data-glyphrain aria-hidden="true"></canvas>
+<div class="thunder__flash" data-thunder-flash aria-hidden="true"></div>
+<canvas class="thunder" data-thunder aria-hidden="true"></canvas>
+<div class="grain" aria-hidden="true"></div>
+<div class="scanlines" aria-hidden="true"></div>
+<div class="cursor" data-cursor aria-hidden="true"><i></i></div>
+
+<main id="top">
+
+  <!-- ============ HERO — CURSOR-TRACKED TURN ============ -->
+  <section class="hero" id="hero" data-hero>
+    <div class="hero__stage" data-hero-stage>
+      <canvas class="hero__canvas" data-turn-canvas></canvas>
+      <noscript><img class="hero__fallback" src="assets/frames/turn/turn_035.webp" alt="Uchiha Madara standing before a blood-red moon."></noscript>
+      <div class="hero__vig" aria-hidden="true"></div>
+    </div>
+
+    <p class="hero__ghost" aria-hidden="true">終焉</p>
+
+    <div class="hero__copy">
+      <p class="eyebrow" data-reveal-item><i></i>うちはマダラ · 伝説の忍</p>
+      <h1 class="hero__title">
+        <span class="hero__jp" data-split-reveal>終わりなき夢</span>
+        <span class="hero__en" data-split-reveal>UCHIHA MADARA</span>
+      </h1>
+      <p class="hero__lede" data-reveal-item>He founded the Hidden Leaf, walked out of it, died, and came back unimpressed. This is the man who never accepted the ending — and the three bodies he wore to rewrite it.</p>
+      <div class="hero__actions" data-reveal-item>
+        <a class="btn btn--solid" href="#forms" data-magnet data-spark>三形 · The three forms</a>
+        <a class="btn btn--ghost" href="#awaken" data-magnet>覚醒 · The awakening</a>
+      </div>
+    </div>
+
+    <div class="hero__hint" data-hero-hint>
+      <span class="hero__hintdot" aria-hidden="true"></span>
+      <p>Move your cursor — <b>he follows</b></p>
+      <div class="hero__track" aria-hidden="true"><i data-turn-track></i></div>
+      <!-- <p class="hero__frame" aria-hidden="true">FRAME <b data-turn-frame>001</b> / 070</p> -->
+    </div>
+
+    <div class="hero__scroll" aria-hidden="true"><span>SCROLL</span><i></i></div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__row" data-marquee>
+      <span>月読 · INFINITE TSUKUYOMI</span><span class="marquee__sep">✦</span>
+      <span>うちはマダラ</span><span class="marquee__sep">✦</span>
+      <span>須佐能乎 · PERFECT SUSANOO</span><span class="marquee__sep">✦</span>
+      <span>輪廻眼 · RINNEGAN</span><span class="marquee__sep">✦</span>
+      <span>写輪眼 · ETERNAL MANGEKYO</span><span class="marquee__sep">✦</span>
+    </div>
+  </div>
+
+
+  <!-- ============ 02 · AWAKENING (scroll-scrubbed 38 frames) ============ -->
+  <section class="awaken" id="awaken" data-awaken>
+    <div class="awaken__stick" data-awaken-stick>
+      <canvas class="awaken__canvas" data-awaken-canvas></canvas>
+      <div class="awaken__vig" aria-hidden="true"></div>
+      <div class="awaken__flash" data-awaken-flash aria-hidden="true"></div>
+
+      <p class="index index--float" aria-hidden="true">02 — 覚醒 / AWAKENING</p>
+
+      <div class="awaken__caps">
+        <article class="awaken__cap" data-awaken-cap>
+          <p class="awaken__num">壱</p>
+          <h3>The seal breaks</h3>
+          <p>Chakra finds the shape of a man who was never supposed to hold it again. The ground answers first.</p>
+        </article>
+        <article class="awaken__cap" data-awaken-cap>
+          <p class="awaken__num">弐</p>
+          <h3>Ten thousand volts of intent</h3>
+          <p>Hands lock into a seal older than the villages. Every strand of hair lifts against gravity&rsquo;s opinion.</p>
+        </article>
+        <article class="awaken__cap" data-awaken-cap>
+          <p class="awaken__num">参</p>
+          <h3>Eyes open, and the sky changes</h3>
+          <p>Purple rings bloom across a black field. Whatever stood between him and the moon is now a formality.</p>
+        </article>
+      </div>
+
+      <div class="awaken__meter" aria-hidden="true">
+        <span>CHAKRA</span>
+        <div class="awaken__bar"><i data-awaken-bar></i></div>
+        <b data-awaken-pct>0%</b>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 03 · THE THREE FORMS — thunder crack-wipe ============ -->
+  <section class="forms" id="forms" data-forms>
+    <div class="forms__stick" data-forms-stick>
+      <div class="forms__plates" data-forms-plates>
+        <!-- stacked in reverse: form 1 sits on top and is torn away to reveal form 2 -->
+        <figure class="plate" data-plate="0">
+          <img class="plate__img" data-stage="0" src="assets/forms/edo_1.webp" alt="Madara reanimated by Edo Tensei, half-formed in the dark." decoding="async">
+          <img class="plate__img" data-stage="1" src="assets/forms/edo_2.webp" alt="" aria-hidden="true" decoding="async">
+          <img class="plate__img" data-stage="2" src="assets/forms/edo_3.webp" alt="" aria-hidden="true" decoding="async">
+        </figure>
+        <figure class="plate" data-plate="1">
+          <img class="plate__img" data-stage="0" src="assets/forms/juubi_1.webp" alt="Madara as the Ten-Tails jinchuriki, emerging from shadow." loading="lazy" decoding="async">
+          <img class="plate__img" data-stage="1" src="assets/forms/juubi_2.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+          <img class="plate__img" data-stage="2" src="assets/forms/juubi_3.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+        </figure>
+        <figure class="plate" data-plate="2">
+          <img class="plate__img" data-stage="0" src="assets/forms/rinne_1.webp" alt="Three-eyed Madara bearing the Rinne Sharingan." loading="lazy" decoding="async">
+          <img class="plate__img" data-stage="1" src="assets/forms/rinne_2.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+          <img class="plate__img" data-stage="2" src="assets/forms/rinne_3.webp" alt="" aria-hidden="true" loading="lazy" decoding="async">
+        </figure>
+        <div class="forms__vig" aria-hidden="true"></div>
+        <canvas class="forms__fx" data-forms-fx aria-hidden="true"></canvas>
+        <div class="forms__flash" data-forms-flash aria-hidden="true"></div>
+      </div>
+
+      <p class="index index--float" aria-hidden="true">03 — 三形 / THREE FORMS</p>
+      <div class="forms__state" aria-hidden="true">FORM // <b data-forms-state>EDO_TENSEI</b></div>
+
+      <div class="forms__panel">
+        <p class="forms__count"><b data-forms-idx>01</b><i>/ 03</i></p>
+        <h3 class="forms__jp" data-forms-jp>穢土転生</h3>
+        <h2 class="forms__name" data-forms-name>Edo Tensei Madara</h2>
+        <p class="forms__desc" data-forms-desc>Dragged out of the pure land in a body that cannot tire, cannot bleed out, and cannot be talked down. The Eternal Mangekyo is already spinning before his feet touch soil.</p>
+        <ul class="forms__spec" data-forms-spec>
+          <li><span>眼</span><b>Eternal Mangekyo Sharingan</b></li>
+          <li><span>術</span><b>Perfect Susanoo</b></li>
+          <li><span>状態</span><b>Immortal reanimation</b></li>
+        </ul>
+        <div class="forms__stages" role="list" aria-label="Transition stages">
+          <i role="listitem" data-forms-stage="0"></i>
+          <i role="listitem" data-forms-stage="1"></i>
+          <i role="listitem" data-forms-stage="2"></i>
+        </div>
+        <p class="forms__stagelabel" data-forms-stagelabel>FORMING</p>
+      </div>
+
+      <div class="forms__rail" aria-hidden="true">
+        <b data-forms-rail="0">穢土転生</b>
+        <b data-forms-rail="1">十尾人柱力</b>
+        <b data-forms-rail="2">輪廻写輪眼</b>
+      </div>
+    </div>
+  </section>
+
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js" defer></script>
+<script src="app.js" defer></script>
+</body>
+</html>
